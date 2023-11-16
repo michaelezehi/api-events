@@ -1,0 +1,185 @@
+[
+  {
+    "id": "1",
+    "name": "Summer Music Fest",
+    "date": "2023-06-15",
+    "description": "A vibrant outdoor music festival.",
+    "tickets": [
+      {
+        "name": "General Admission",
+        "type": "adult",
+        "price": 50,
+        "bookingFee": 5,
+        "availability": "available"
+      },
+      {
+        "name": "Children Admission",
+        "type": "child",
+        "price": 10,
+        "bookingFee": 5,
+        "availability": "available"
+      },
+      {
+        "name": "VIP Pass",
+        "type": "adult",
+        "price": 100,
+        "bookingFee": 10,
+        "availability": "available"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Tech Conference 2023",
+    "date": "2023-09-10",
+    "description": "Annual tech conference with industry leaders.",
+    "tickets": [
+      {
+        "name": "Early Bird",
+        "type": "adult",
+        "price": 75,
+        "bookingFee": 7,
+        "availability": "sold out"
+      },
+      {
+        "name": "Standard Entry",
+        "type": "adult",
+        "price": 120,
+        "bookingFee": 10,
+        "availability": "available"
+      },
+      {
+        "name": "Children Admission",
+        "type": "child",
+        "price": 50,
+        "bookingFee": 5,
+        "availability": "available"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Charity Fun Run",
+    "date": "2023-05-25",
+    "description": "A 5k fun run for charity.",
+    "tickets": [
+      {
+        "name": "Individual",
+        "type": "adult",
+        "price": 20,
+        "bookingFee": 2,
+        "availability": "available"
+      },
+      {
+        "name": "Family Pack",
+        "type": "family",
+        "price": 60,
+        "bookingFee": 5,
+        "availability": "available"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Local Art Expo",
+    "date": "2023-07-30",
+    "description": "Exhibition of local artists and their work.",
+    "tickets": [
+      {
+        "name": "General Admission",
+        "type": "adult",
+        "price": 15,
+        "bookingFee": 1.5,
+        "availability": "available"
+      },
+      {
+        "name": "Family Admission",
+        "type": "family",
+        "price": 25,
+        "bookingFee": 1.5,
+        "availability": "available"
+      },
+      {
+        "name": "Children Admission",
+        "type": "child",
+        "price": 0,
+        "bookingFee": 1.5,
+        "availability": "available"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Food and Wine Festival",
+    "date": "2023-08-20",
+    "description": "Explore gourmet food and fine wines.",
+    "tickets": [
+      {
+        "name": "Tasting Pass",
+        "type": "adult",
+        "price": 60,
+        "bookingFee": 6,
+        "availability": "available"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Historical Reenactment",
+    "date": "2023-09-05",
+    "description": "A journey back in time with historical reenactments.",
+    "tickets": [
+      {
+        "name": "Adult Ticket",
+        "type": "adult",
+        "price": 30,
+        "bookingFee": 3,
+        "availability": "available"
+      },
+      {
+        "name": "Child Ticket",
+        "type": "child",
+        "price": 15,
+        "bookingFee": 1.5,
+        "availability": "available"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Outdoor Cinema Night",
+    "date": "2023-06-10",
+    "description": "Classic movies under the stars.",
+    "tickets": [
+      {
+        "name": "Single Ticket",
+        "type": "adult",
+        "price": 12,
+        "bookingFee": 1,
+        "availability": "available"
+      },
+      {
+        "name": "Couple's Pass",
+        "type": "adult",
+        "price": 20,
+        "bookingFee": 2,
+        "availability": "available"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Comedy Night Live",
+    "date": "2023-10-11",
+    "description": "Evening of stand-up comedy performances.",
+    "tickets": [
+      {
+        "name": "Standard",
+        "type": "adult",
+        "price": 25,
+        "bookingFee": 2.5,
+        "availability": "available"
+      }
+    ]
+  }
+]

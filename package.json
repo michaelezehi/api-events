@@ -1,0 +1,19 @@
+{
+  "name": "full-stack-events-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start:api": "cd api && npm start",
+    "start:events": "cd events && npm start",
+    "dev:api": "cd api && npm run dev",
+    "build:api": "cd api && npm run build",
+    "test:api": "cd api && npm test",
+    "build:events": "cd events && npm run build",
+    "test:events": "cd events && npm test",
+    "install": "cd api && npm install && cd .. && cd events && npm install"
+  },
+  "description": "This repository contains a full stack application with an Express.js backend (`api`) and a React.js frontend (`events`).",
+  "main": "index.js",
+  "author": "Michael E.",
+  "license": "ISC"
+}

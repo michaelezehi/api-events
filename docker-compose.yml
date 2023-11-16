@@ -1,0 +1,19 @@
+version: "3.8"
+services:
+  api:
+    build: ./api
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./api:/usr/src/app
+      - /usr/src/app/node_modules
+
+  events:
+    build: ./events
+    ports:
+      - "80:80"
+    environment:
+      - REACT_APP_API_URL=http://localhost:8080/api
+    volumes:
+      - ./events:/usr/src/app
+      - /usr/src/app/node_modules
