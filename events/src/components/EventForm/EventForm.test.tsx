@@ -6,6 +6,7 @@ const mockEvent = {
   name: "Test Event",
   date: "2023-01-01",
   description: "Test Description",
+  location: "London",
   tickets: [],
 };
 
@@ -24,9 +25,13 @@ describe("EventForm", () => {
     const eventDescriptionInput = screen.getByLabelText(
       /description/i
     ) as HTMLInputElement;
+    const eventLocationInput = screen.getByLabelText(
+      /location/i
+    ) as HTMLInputElement;
 
     expect(eventNameInput.value).toBe("Test Event");
     expect(eventDateInput.value).toBe("2023-01-01");
+    expect(eventLocationInput.value).toBe("London");
     expect(eventDescriptionInput.value).toBe("Test Description");
     expect(
       screen.getByRole("button", { name: /update event/i })

@@ -14,6 +14,7 @@ const EventForm = ({ onSubmit, event }) => {
       name: "",
       date: "",
       description: "",
+      location: "",
       tickets: [],
     }
   );
@@ -81,6 +82,14 @@ const EventForm = ({ onSubmit, event }) => {
           fullWidth
           margin="normal"
           InputLabelProps={{ shrink: true }}
+        />
+         <TextField
+          name="location"
+          label="Location"
+          value={eventData.location}
+          onChange={handleChange}
+          fullWidth
+          margin="normal"
         />
         <TextField
           name="description"

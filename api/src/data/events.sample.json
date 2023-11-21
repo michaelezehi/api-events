@@ -4,6 +4,7 @@
     "name": "Summer Music Fest",
     "date": "2023-06-15",
     "description": "A vibrant outdoor music festival.",
+    "location": "Amsterdam",
     "tickets": [
       {
         "name": "General Admission",
@@ -33,6 +34,7 @@
     "name": "Tech Conference 2023",
     "date": "2023-09-10",
     "description": "Annual tech conference with industry leaders.",
+    "location": "London",
     "tickets": [
       {
         "name": "Early Bird",
@@ -62,6 +64,7 @@
     "name": "Charity Fun Run",
     "date": "2023-05-25",
     "description": "A 5k fun run for charity.",
+    "location": "London",
     "tickets": [
       {
         "name": "Individual",
